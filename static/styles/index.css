@@ -1,0 +1,8 @@
+body{
+    background: #ffffff url("../images/background.png") cover right top;
+}
+
+.search{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
