@@ -6,7 +6,6 @@ app.config['SECRET_KEY'] = 'mysecretkey'
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
-app.config['TRACK_MODIFICATIONS'] = False
 
 @app.route("/", methods=['GET', 'POST'])
 def index():

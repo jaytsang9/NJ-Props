@@ -1,8 +1,26 @@
-body{
-    background: #ffffff url("../images/background.png") cover right top;
+.row{
+    margin-top:10% !important;
+}
+
+.card{
+    padding:7px;
+    border:none;
+}
+
+.form-group{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.query{
+    margin-left:auto !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .search{
+    margin-right: auto !important;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
